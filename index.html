@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://data.mothership.tools/mothershiptools-ukprod/wp-content/uploads/2021/05/marc-kinchen-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Matěj Kříž</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top fade-in">
+        <div class="container-fluid p-lg-5 m-lg-5">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-house"></i></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#ome">O mě</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#kontakt">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <section class="d-flex align-items-center fade-in text-white" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-lg-0 order-2 order-lg-1">
+              <h1 class="display-5">Matěj Kříž</h1>
+              <h2 class="display-6">Web Designer</h2>
+              <h4 class="mb-5 col-lg-8">Hledáte vývojáře s touhou neustále se zlepšovat?</h4>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <a href="#kontakt" class="btn-hlavni fw-bold">Kontakt</a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-2 d-flex justify-content-center align-items-center">
+            </div>                               
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutme text-white" id="ome">
+        <div class="container-lg">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="about-paragraph show">
+                <h2 class="section-title">O mně</h2>
+                <h5 class="section-paragraph">Ahoj, jmenuji se <span class="fw-bold" style="color: #c5ee28;">Matěj</span> a jsem vývojář <span class="fw-bold" style="color: #c5ee28;">webových stránek</span>.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio text-white" id="portfolio">
+        <div class="container sluzby">
+          <h2 class="section-title-center fw-bold" style="color: #fff;">Tvorba se mnou</h2>
+          <div class="row blocks show">
+            <div class="col-md-4 blocky">
+              <div class="service-block">
+                <i class="fa fa-code"></i>
+                <h4 class="fw-bold blocky-title">Tvorba webu na míru</h4>
+                <p class="portfolio-paragraph">Vytvořím vám webové stránky na míru, které budou odpovídat vašim představám. Snažím se porozumět vašim cílům, abych mohl navrhnout a vytvořit webové stránky, které budou esteticky přitažlivé, funkční a uživatelsky přívětivé.</p>
+              </div>
+            </div>
+            <div class="col-md-4 blocky">
+              <div class="service-block">
+                <i class="fa fa-magic"></i>
+                <h4 class="fw-bold blocky-title">Redesign starého webu</h4>
+                <p class="portfolio-paragraph">Pokud vaše webové stránky působí zastarale, pravděpodobně vaši potenciální zákazníci opustí web rychlostí světla. Redesign vašeho starého webu vám může přinést mnohnonásobně větší úspěch a zisk online.</p>
+              </div>
+            </div>
+            <div class="col-md-4 blocky">
+              <div class="service-block">
+                <i class="fa fa-gear"></i>
+                <h4 class="fw-bold blocky-title">Nastavení webu</h4>
+                <p class="portfolio-paragraph">Mám mnoho zkušeností s nastavováním a správou webových stránek. Chcete-li zajistit, aby vaše webové stránky byly rychlé a bezpečné, je důležité správně je nastavit a optimalizovat. Váš web budu pravidelně kontrolovat a aktualizovat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kontakt text-white" id="kontakt">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <form method="post" class="box">
+                <h2 class="fw-bold contact-title" style="color: #c5ee28;">Kontaktujte mě</h2>
+                <div class="input-wrapper">
+                  <input type="text" name="name">
+                  <label>Vaše jméno</label>
+                  <div class="table-line"></div>
+                </div>
+                <div class="input-wrapper">
+                  <input type="email" name="email">
+                  <label>Váš Email</label>
+                  <div class="table-line"></div>
+                </div>
+                <div class="input-wrapper">
+                  <textarea name="message" cols="30" rows="10"></textarea>
+                  <label>Rozepište se</label>
+                  <div class="table-line"></div>
+                </div>
+                <p>*odesláním formuláře souhlasíte s podmínkami ochrany osobních údajů.</p>
+                <button type="submit" class="btn-hlavni fw-bold">Odeslat</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer pt-4 pb-4" id="footer">
+        <div class="container text-center text-white fw-bold">
+          <span>© 2023 | Matěj Kříž</span>
+        </div>
+      </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
